@@ -1,7 +1,10 @@
+#74FB32 handcrafted:acacia_chair
+#98B577 buildersdelight:acacia_chair_1
 #DDFE01 minecraft:acacia_fence
 #BC984F minecraft:acacia_fence_gate
 #942E52 minecraft:acacia_leaves
 #A78454 minecraft:acacia_log
+#CA1807 minecraft:acacia_planks
 #C0EE26 buildersdelight:acacia_stairs_5
 #C90123 minecraft:acacia_wood
 #52B53D minecraft:air
@@ -80,6 +83,7 @@
 #746434 create:limestone
 #0EC131 lootr:lootr_barrel
 #EA63C2 lootr:lootr_chest
+#565EEA chipped:mason_table
 #B42F3C minecraft:medium_amethyst_bud
 #8A7583 minecraft:moss_block
 #A4FC4B minecraft:mossy_cobblestone
@@ -134,6 +138,7 @@
 #7D07A9 minecraft:stone_pressure_plate
 #AB5BC7 minecraft:stone_slab
 #139B57 minecraft:stone_stairs
+#DC1EE5 quark:stripped_acacia_post
 #3B1D89 minecraft:stripped_oak_log
 #A88E8E minecraft:stripped_oak_wood
 #82F982 minecraft:stripped_spruce_log

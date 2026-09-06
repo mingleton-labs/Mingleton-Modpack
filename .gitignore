@@ -6,9 +6,11 @@ xaero/
 blueprints/
 trees/
 schematics/
+local/
 
 .probe/
 .mixin.out/
 
 servers.dat
 servers.dat_old
+command_history.txt

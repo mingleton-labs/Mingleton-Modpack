@@ -19,3 +19,7 @@
 /probejs
 /time set day
 /reload
+/time set day
+/reload
+/time set day
+/reload
