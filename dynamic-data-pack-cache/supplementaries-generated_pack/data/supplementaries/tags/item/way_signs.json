@@ -1,0 +1,24 @@
+{
+  "values": [
+    "supplementaries:way_sign_acacia",
+    "supplementaries:quark/way_sign_ancient",
+    "supplementaries:ars_nouveau/way_sign_archwood",
+    "supplementaries:forbidden_arcanus/way_sign_aurum",
+    "supplementaries:quark/way_sign_azalea",
+    "supplementaries:way_sign_bamboo",
+    "supplementaries:way_sign_birch",
+    "supplementaries:quark/way_sign_blossom",
+    "supplementaries:domum_ornamentum/way_sign_cactus",
+    "supplementaries:domum_ornamentum/way_sign_cactus_extra",
+    "supplementaries:way_sign_cherry",
+    "supplementaries:way_sign_crimson",
+    "supplementaries:way_sign_dark_oak",
+    "supplementaries:forbidden_arcanus/way_sign_edelwood",
+    "supplementaries:forbidden_arcanus/way_sign_fungyss",
+    "supplementaries:way_sign_jungle",
+    "supplementaries:way_sign_mangrove",
+    "supplementaries:way_sign_oak",
+    "supplementaries:way_sign_spruce",
+    "supplementaries:way_sign_warped"
+  ]
+}

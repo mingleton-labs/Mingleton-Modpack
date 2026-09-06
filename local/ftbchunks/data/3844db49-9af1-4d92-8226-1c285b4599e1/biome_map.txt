@@ -1,0 +1,8 @@
+#705 minecraft:deep_frozen_ocean
+#271 terralith:frozen_cliffs
+#292 minecraft:frozen_ocean
+#508 minecraft:frozen_peaks
+#3A0 minecraft:frozen_river
+#286 minecraft:grove
+#4E5 minecraft:snowy_plains
+#340 minecraft:snowy_taiga

@@ -1,0 +1,3 @@
+#5C1 terralith:alpine_highlands
+#597 terralith:temperate_highlands
+#1D0 terralith:yellowstone

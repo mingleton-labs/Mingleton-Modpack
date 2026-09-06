@@ -1,0 +1,10 @@
+[
+  {"version":1},
+  {"ingredient":{"id":"buildersdelight:iron_chisel"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"buildersdelight:acacia_stairs_5"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"chipped:multimeter"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"chipped:tinkering_table"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"farmersdelight:apple_cider"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"displaydelight:apple_cider"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"pamhc2crops:tomatoitem"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

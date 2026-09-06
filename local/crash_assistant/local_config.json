@@ -1,0 +1,6 @@
+{
+	"shown_reasons": {
+		"MissingUnsupportedDependencies": true,
+		"ScriptedAnalysis": true
+	}
+}

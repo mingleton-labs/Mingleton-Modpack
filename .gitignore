@@ -1,0 +1,14 @@
+logs/
+crash-reports/
+saves/
+shaderpacks/
+xaero/
+blueprints/
+trees/
+schematics/
+
+.probe/
+.mixin.out/
+
+servers.dat
+servers.dat_old
