@@ -15,7 +15,15 @@ ServerEvents.recipes((event) => {
     B: "minecraft:copper_ingot",
   });
 
-  // Add custom recipes for copper and golden lanterns
+  // Add custom recipes for paper, wooden, copper and golden lanterns
+  event.shaped(Item.of("buildersdelight:lantern_1", 1), ["AAA", "ABA", "AAA"], {
+    A: "minecraft:paper",
+    B: "minecraft:torch",
+  });
+  event.shaped(Item.of("buildersdelight:lantern_4", 1), ["AAA", "ABA", "AAA"], {
+    A: "#minecraft:planks",
+    B: "minecraft:torch",
+  });
   event.shaped(Item.of("buildersdelight:lantern_3", 1), ["AAA", "ABA", "AAA"], {
     A: "create:copper_nugget",
     B: "minecraft:torch",
