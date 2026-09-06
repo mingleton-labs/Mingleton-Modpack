@@ -26,6 +26,10 @@
 #00BE18 minecraft:calcite
 #FC842A minecraft:campfire
 #CC0363 chipped:carpenters_table
+#85D7D6 buildersdelight:chain_1
+#85D7D7 buildersdelight:chain_2
+#85D7D9 buildersdelight:chain_4
+#85D7DA buildersdelight:chain_5
 #F522F4 minecraft:chest
 #7FDE54 minecraft:clay
 #DE242D minecraft:coal_ore
@@ -39,6 +43,7 @@
 #E2D601 minecraft:composter
 #6E76AF minecraft:copper_ore
 #CC07F6 minecraft:cornflower
+#468304 minecraft:crafting_table
 #B2A2E1 minecraft:dandelion
 #E3DF1E minecraft:dark_oak_leaves
 #76FBCA minecraft:dark_prismarine
@@ -53,6 +58,7 @@
 #3B0AD1 minecraft:dripstone_block
 #4C963A minecraft:emerald_ore
 #49A4E1 trmt:eroded_grass_block
+#67C3B9 buildersdelight:exposed_chain_3
 #271665 create:fake_track
 #009B14 minecraft:farmland
 #E66556 minecraft:flowering_azalea_leaves
