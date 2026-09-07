@@ -27,3 +27,14 @@
 /reload
 /time set day
 /reload
+/tp zacco_mode Benssy
+/time set day
+/reload
+/kubejs reload
+/kubejs reload server-scripts
+/reload
+/kubejs reload server-scripts
+/reload
+/kubejs reload client-scripts
+/reload
+/kubejs reload client-scripts
