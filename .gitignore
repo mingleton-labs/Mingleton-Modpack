@@ -28,3 +28,5 @@ options.txt
 minecraftinstance.json
 
 config/ftbchunks-client.snbt
+config/flywheel-client*
+config/sodium-fingerprint.json
