@@ -1,3 +1,7 @@
 RecipeViewerEvents.removeEntriesCompletely("item", (event) => {
-  event.remove("mysticalagriculture:inferium_chestplate");
+  // Item entries take an ingredient/predicate, not a recipe filter.
+  // Intersect "any item from the mod" with the armor tag.
+  event.remove(
+    Ingredient.of("@mysticalagriculture").and(Ingredient.of("#c:armors"))
+  );
 });
