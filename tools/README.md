@@ -41,7 +41,8 @@ nobody has to write them by hand.
 
 1. Finds the newest `BuildersDelight-*.jar` and `chipped-*.jar` in `mods`. It
    matches on the filename pattern, so a version bump needs no edit here.
-2. Reads every Builder's Delight chisel group out of its jar.
+2. Reads every Builder's Delight chisel group out of its jar, dropping anything
+   named in `EXCLUDE`.
 3. Reads every `data/chipped/tags/item/*.json` out of the Chipped jar, to learn
    which blocks Chipped already claims.
 4. Writes `kubejs/server_scripts/bd_chipped_groups.js`.
@@ -87,6 +88,33 @@ this creates 116 groups.
 In both modes, a vanilla block that Chipped already claims is left with Chipped
 rather than copied.
 
+### Dropping blocks from the migration
+
+Some Builder's Delight blocks are better earned by crafting than handed out by a
+chisel. The paper, wooden, copper and golden lanterns and chains all have their
+own recipes in `kubejs/server_scripts/builders_delight.js`, and a chisel that
+converts a plain lantern into a golden one would make those recipes pointless.
+
+The `EXCLUDE` set at the top of the script names the blocks to leave out:
+
+```python
+EXCLUDE = {
+    "buildersdelight:lantern_1",  # paper lantern
+    ...
+}
+```
+
+An excluded block is dropped at the point the jar is read, so no Chipped group
+offers it and nothing downstream ever sees it. Combined with a muted Iron
+Chisel, crafting becomes the only way to get one.
+
+Edit the set and re-run to change your mind. The script reports how many of the
+listed ids it actually found, and warns about any that appear in no chisel group
+at all, which usually means a typo in an id.
+
+Blocks stay in their group when only some members are excluded. The lantern
+group keeps its four remaining variants; only the four named ones go.
+
 ### Muting the Iron Chisel
 
 `--disable-iron-chisel` writes `{ "variants": [] }` over all 116 group files, at
@@ -117,9 +145,10 @@ The script prints a summary. A run in `merge` mode looks like this:
 ```
 Builder's Delight jar: BuildersDelight-1.21.1-v.1.4.jar
 Chipped jar:           chipped-neoforge-1.21.1-4.0.2.jar
-Chisel groups found:   116 (953 variant entries)
-Merged into Chipped:   29 tags, 221 items added
-New Chipped groups:    87 tags, 703 items
+Chisel groups found:   116 (946 variant entries)
+Merged into Chipped:   29 tags, 217 items added
+New Chipped groups:    87 tags, 700 items
+Excluded, so dropped:  7 of 7 listed
 ```
 
 It also warns if any block appears in more than one group, because that brings
