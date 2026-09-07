@@ -4,4 +4,6 @@ StartupEvents.registry('item', event => {
   event.create('crushed_andesite')
     .displayName('Crushed Andesite')
 
+  event.create('wet_andesite_pile')
+    .displayName('Wet Andesite Pile')
 })
