@@ -10,7 +10,7 @@ local/
 
 config/ars_nouveau/search_index
 config/jei/world
-config/cinematic_respan.properties
+config/cinematic_respawn.properties
 
 /Distant_Horizons_server_data
 /dynamic-data-pack-cache
