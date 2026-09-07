@@ -1,3 +1,3 @@
 RecipeViewerEvents.removeEntriesCompletely("item", (event) => {
-  event.remove({mod: "mysticalagriculture", output:"#c:armors"});
+  event.remove("mysticalagriculture:inferium_chestplate");
 });

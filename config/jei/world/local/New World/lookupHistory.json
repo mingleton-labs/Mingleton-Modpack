@@ -1,5 +1,7 @@
 [
   {"version":1},
+  {"ingredient":{"id":"immersiveengineering:hammer"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"handcrafted:hammer"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"aquaculture:neptunium_ingot"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"farmersdelight:cutting_board"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"farmersdelight:cooking_pot"},"type":"item_stack","bookmarkType":"INGREDIENT"},
