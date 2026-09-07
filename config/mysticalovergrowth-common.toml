@@ -1,0 +1,3 @@
+#A list of crop recipes to disable. Only Mystical Overgrowth IDs are accepted.
+#Example: disabled_recipes = ["mysticalovergrowth:shulker"]
+disabledRecipes = []

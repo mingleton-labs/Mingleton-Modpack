@@ -21,7 +21,8 @@
 		"soundEvent": "minecraft:block.note_block.chime"
 	},
 	"mentionKeywords": [
-		"@zacco_mode"
+		"@zacco_mode",
+		"@Benssy"
 	],
 	"ignoreSystemChats": false,
 	"enableChatSoundCooldown": false,

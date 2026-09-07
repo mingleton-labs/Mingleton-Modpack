@@ -6,8 +6,8 @@
     "animal_owner": true,
     "harvest_tool.effective_tool": true,
     "energy_storage.style": "PROGRESS_BAR",
-    "item_storage.normal_amount": 9,
     "item_storage": true,
+    "item_storage.normal_amount": 9,
     "harvest_tool": true,
     "armor_stand": true,
     "fluid_storage.detailed": false,
@@ -52,8 +52,19 @@
     "painting": true,
     "chiseled_bookshelf": true
   },
-  "ars_nouveau": {
-    "mob_jar": true
+  "compactmachines": {
+    "show_owner": false,
+    "bound_machine": true
+  },
+  "jadeaddons.create": {
+    "filter": true,
+    "backtank_capacity": true,
+    "goggles.requires_goggles": true,
+    "goggles": false,
+    "blaze_burner": true,
+    "exact_block": true,
+    "goggles.detailed": false,
+    "placard": true
   },
   "jade_access": {
     "held_item": true,
@@ -62,21 +73,11 @@
     "entity": true,
     "entity_variant": true
   },
-  "mekanism": {
-    "chemical": true,
-    "remove_builtin": true,
-    "fluid": true,
-    "energy": true,
-    "tooltip_renderer": true
-  },
   "immersiveengineering": {
     "multiblock_icon": true
   },
-  "quark": {
-    "oretoise_eating_cooldown": true
-  },
-  "supplementaries": {
-    "hat_stand": true
+  "jademoddedentities": {
+    "villager": true
   },
   "jade": {
     "coordinates.rel": false,
@@ -88,17 +89,6 @@
     "registry_name": "OFF",
     "block_properties": false,
     "mod_name": true
-  },
-  "corpse": {
-    "corpse": true
-  },
-  "cookingforblockheads": {
-    "fridge": true,
-    "oven": true,
-    "sink": true,
-    "preservation_chamber": true,
-    "milk_jar": true,
-    "toaster": true
   },
   "balm": {
     "jade": true
@@ -114,5 +104,71 @@
     "power_storage": true,
     "crafting_monitor": true,
     "part_name": true
+  },
+  "ars_nouveau": {
+    "mob_jar": true
+  },
+  "jadeaddons": {
+    "equipment_requirement": ""
+  },
+  "jade_sophisticated_backpacks": {
+    "preview": true,
+    "upgrade_status": true,
+    "placed_hint": true,
+    "backpacks": true,
+    "fluid": true,
+    "worn_hint": true,
+    "upgrades": true,
+    "total_items": true,
+    "capacity": true,
+    "energy": true
+  },
+  "mcjadecrops": {
+    "crop_stage": true
+  },
+  "enderio": {
+    "soul_bound": true
+  },
+  "jadeaddons.lootr": {
+    "info": true
+  },
+  "mekanism": {
+    "chemical": true,
+    "remove_builtin": true,
+    "fluid": true,
+    "energy": true,
+    "tooltip_renderer": true
+  },
+  "mysticalagradditions": {
+    "infused_farmland": true
+  },
+  "quark": {
+    "oretoise_eating_cooldown": true
+  },
+  "jadecolonies": {
+    "colony.citizens": true,
+    "colony.visitor_cost": true,
+    "colony.pack": true,
+    "colony.colonist": true,
+    "domum.materials": true
+  },
+  "supplementaries": {
+    "hat_stand": true
+  },
+  "corpse": {
+    "corpse": true
+  },
+  "cookingforblockheads": {
+    "fridge": true,
+    "oven": true,
+    "sink": true,
+    "preservation_chamber": true,
+    "milk_jar": true,
+    "toaster": true
+  },
+  "mysticalagriculture": {
+    "infused_farmland": true,
+    "crop": true,
+    "inferium_crop": true
   }
 }

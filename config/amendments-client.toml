@@ -131,3 +131,5 @@
 	fixed_holding_animations = false
 	#Prevents campfire smoke from rendering if there is a solid block above it
 	campfire_smoke_through_blocks = false
+	#Gives the villager trade buttons the same look loom and stonecutter buttons have
+	villager_trade_buttons = true
