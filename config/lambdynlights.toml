@@ -258,6 +258,12 @@ chunk_rebuild_scheduler = "culling"
 				robit = true
 				flame = true
 
+			[light_sources.settings.entities.enderio]
+				painted_sand = true
+
+			[light_sources.settings.entities.actuallyadditions]
+				worm = true
+
 			[light_sources.settings.entities.quark]
 				quark_boat = true
 				dyed_item_frame = true
@@ -414,6 +420,9 @@ chunk_rebuild_scheduler = "culling"
 				ferret = true
 				red_panda = true
 				sea_bunny = true
+
+			[light_sources.settings.entities.powah]
+				charged_snowball = true
 
 			[light_sources.settings.entities.simulated]
 				launched_plunger = true

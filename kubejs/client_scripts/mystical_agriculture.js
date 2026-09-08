@@ -6,6 +6,6 @@ RecipeViewerEvents.removeEntriesCompletely("item", (event) => {
   );
 
   event.remove(
-    Ingredient.of("@mysticalagriculture").and(Ingredient.of("#c:tools")).and(Ingredient.of("#c:watering_cans").not())
+    Ingredient.of("@mysticalagriculture").and(Ingredient.of("#c:tools"))
   );
 });
