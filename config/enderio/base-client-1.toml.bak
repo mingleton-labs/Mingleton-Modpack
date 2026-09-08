@@ -7,5 +7,3 @@
 [visual]
 	#Enable machine particles
 	machineParticles = true
-	#Whether Travel Anchors try to render items as blocks
-	anchorsUseIconAsBlock = true
