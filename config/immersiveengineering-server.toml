@@ -252,15 +252,15 @@
 		#The Flux per tick the cloche consumes to grow plants
 		# Default: 8
 		# Range: > 1
-		consumption = 8
+		consumption = 500
 		#The amount of ticks one dose of fertilizer lasts in the cloche
 		# Default: 6000
 		# Range: > 1
-		fertilizer = 6000
+		fertilizer = 2000
 		#The amount of fluid the cloche uses per dose of fertilizer
 		# Default: 250
 		# Range: > 1
-		fluid = 250
+		fluid = 1000
 		#A modifier to apply to the cloches total growing speed
 		# Default: 1.0
 		# Range: 0.001 ~ 1000.0
