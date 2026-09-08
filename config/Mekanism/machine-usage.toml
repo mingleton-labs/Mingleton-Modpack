@@ -1,127 +1,127 @@
 #Energy per operation in Joules of: Enrichment Chamber
 # Default: 50
 # Range: 0 ~ 9223372036854775807
-enrichmentChamber = 50
+enrichmentChamber = 500
 #Energy per operation in Joules of: Osmium Compressor
 # Default: 100
 # Range: 0 ~ 9223372036854775807
-osmiumCompressor = 100
+osmiumCompressor = 1000
 #Energy per operation in Joules of: Combiner
 # Default: 50
 # Range: 0 ~ 9223372036854775807
-combiner = 50
+combiner = 500
 #Energy per operation in Joules of: Crusher
 # Default: 50
 # Range: 0 ~ 9223372036854775807
-crusher = 50
+crusher = 500
 #Energy per operation in Joules of: Metallurgic Infuser
 # Default: 50
 # Range: 0 ~ 9223372036854775807
-metallurgicInfuser = 50
+metallurgicInfuser = 1000
 #Energy per operation in Joules of: Purification Chamber
 # Default: 200
 # Range: 0 ~ 9223372036854775807
-purificationChamber = 200
+purificationChamber = 2000
 #Energy per operation in Joules of: Energized Smelter
 # Default: 50
 # Range: 0 ~ 9223372036854775807
-energizedSmelter = 50
+energizedSmelter = 500
 #Energy per operation in Joules of: Digital Miner
 # Default: 1000
 # Range: 0 ~ 9223372036854775807
-digitalMiner = 1000
+digitalMiner = 10000
 #Energy per operation in Joules of: Electric Pump
 # Default: 100
 # Range: 0 ~ 9223372036854775807
-electricPump = 100
+electricPump = 1000
 #Energy in Joules that can be transferred at once per charge operation.
 # Default: 1024000
 # Range: 0 ~ 9223372036854775807
-chargepad = 1024000
+chargepad = 10240000
 #Energy per operation in Joules of: Rotary Condensentrator
 # Default: 50
 # Range: 0 ~ 9223372036854775807
-rotaryCondensentrator = 50
+rotaryCondensentrator = 500
 #Energy per operation in Joules of: Chemical Oxidizer
 # Default: 200
 # Range: 0 ~ 9223372036854775807
-chemicalOxidizer = 200
+chemicalOxidizer = 2000
 #Energy per operation in Joules of: Chemical Infuser
 # Default: 200
 # Range: 0 ~ 9223372036854775807
-chemicalInfuser = 200
+chemicalInfuser = 2000
 #Energy per operation in Joules of: Chemical Injection Chamber
 # Default: 400
 # Range: 0 ~ 9223372036854775807
-chemicalInjectionChamber = 400
+chemicalInjectionChamber = 4000
 #Energy per operation in Joules of: Precision Sawmill
 # Default: 50
 # Range: 0 ~ 9223372036854775807
-precisionSawmill = 50
+precisionSawmill = 500
 #Energy per operation in Joules of: Chemical Dissolution Chamber
 # Default: 400
 # Range: 0 ~ 9223372036854775807
-chemicalDissolutionChamber = 400
+chemicalDissolutionChamber = 4000
 #Energy per operation in Joules of: Chemical Washer
 # Default: 200
 # Range: 0 ~ 9223372036854775807
-chemicalWasher = 200
+chemicalWasher = 2000
 #Energy per operation in Joules of: Chemical Crystallizer
 # Default: 400
 # Range: 0 ~ 9223372036854775807
-chemicalCrystallizer = 400
+chemicalCrystallizer = 4000
 #Energy per operation in Joules of: Seismic Vibrator
 # Default: 50
 # Range: 0 ~ 9223372036854775807
-seismicVibrator = 50
+seismicVibrator = 500
 #Energy per operation in Joules of: Pressurized Reaction Chamber
 # Default: 5
 # Range: 0 ~ 9223372036854775807
-pressurizedReactionBase = 5
+pressurizedReactionBase = 50
 #Energy per operation in Joules of: Fluidic Plenisher
 # Default: 100
 # Range: 0 ~ 9223372036854775807
-fluidicPlenisher = 100
+fluidicPlenisher = 1000
 #Energy per operation in Joules of: Laser
 # Default: 10000
 # Range: 0 ~ 9223372036854775807
-laser = 10000
+laser = 100000
 #Energy per operation in Joules of: Formulaic Assemblicator
 # Default: 100
 # Range: 0 ~ 9223372036854775807
-formulaicAssemblicator = 100
+formulaicAssemblicator = 1000
 #Energy per operation in Joules of: Modification Station
 # Default: 400
 # Range: 0 ~ 9223372036854775807
-modificationStation = 400
+modificationStation = 4000
 #Energy per operation in Joules of: Isotopic Centrifuge
 # Default: 200
 # Range: 0 ~ 9223372036854775807
-isotopicCentrifuge = 200
+isotopicCentrifuge = 2000
 #Energy per operation in Joules of: Nutritional Liquifier
 # Default: 200
 # Range: 0 ~ 9223372036854775807
-nutritionalLiquifier = 200
+nutritionalLiquifier = 2000
 #Energy per operation in Joules of: Nucleosynthesizer
 # Default: 100000
 # Range: 0 ~ 9223372036854775807
-antiprotonicNucleosynthesizer = 100000
+antiprotonicNucleosynthesizer = 1000000
 #Energy per operation in Joules of: Pigment Extractor
 # Default: 200
 # Range: 0 ~ 9223372036854775807
-pigmentExtractor = 200
+pigmentExtractor = 2000
 #Energy per operation in Joules of: Pigment Mixer
 # Default: 200
 # Range: 0 ~ 9223372036854775807
-pigmentMixer = 200
+pigmentMixer = 2000
 #Energy per operation in Joules of: Painting Machine
 # Default: 100
 # Range: 0 ~ 9223372036854775807
-paintingMachine = 100
+paintingMachine = 1000
 #Energy per chunk per tick in Joules.
 # Default: 5000
 # Range: 0 ~ 9223372036854775807
-dimensionalStabilizer = 5000
+dimensionalStabilizer = 50000
 #If enabled, Chemical Injectors and Purification Chambers will consume a semi randomized amount of chemical each operation.
 randomizedConsumption = true
 
@@ -130,12 +130,12 @@ randomizedConsumption = true
 	#Base cost in Joules for teleporting an entity.
 	# Default: 1000
 	# Range: 0 ~ 9223372036854775807
-	base = 1000
+	base = 10000
 	#Joules per unit of distance travelled during teleportation - sqrt(xDiff^2 + yDiff^2 + zDiff^2).
 	# Default: 10
 	# Range: 0 ~ 9223372036854775807
-	distance = 10
+	distance = 50
 	#Flat additional cost for interdimensional teleportation. Distance is still taken into account minimizing energy cost based on dimension scales.
 	# Default: 10000
 	# Range: 0 ~ 9223372036854775807
-	dimensionPenalty = 10000
+	dimensionPenalty = 100000
